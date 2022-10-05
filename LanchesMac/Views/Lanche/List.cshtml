@@ -1,0 +1,18 @@
+﻿@*view fortemente tipada passa pelo controller coleções e dados*@
+@*@model IEnumerable<LanchesMac.Models.Lanche>  será trocado por outro model criado*@
+@*o @ é um passe da razor view engine que executa o interpretador de c# para qualquer codigo dentro ser processado como codigo c#*@
+@model LancheListViewModel
+@*continua sendo uma view fortemente tipada porém usando model*@
+
+<div>
+    <h2>@Model.CategoriaAtual</h2>
+</div>
+
+<div class="container">
+    <div class="row">
+        @foreach (var lanche in Model.Lanches)
+        {
+          <partial name="_LanchesResumo" for="@lanche"/>
+        }
+    </div>
+</div>
