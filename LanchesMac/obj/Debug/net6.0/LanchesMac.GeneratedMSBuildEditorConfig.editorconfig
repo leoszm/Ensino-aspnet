@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/ultima_alteracao/8_LeiauteAlternativo/LanchesMac/LanchesMac/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ultima_alteracao/8_LeiauteAlternativo/LanchesMac/LanchesMac/Views/CarrinhoCompra/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9Db21wcmFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -41,6 +45,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/ultima_alteracao/8_LeiauteAlternativo/LanchesMac/LanchesMac/Views/Pedido/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXENoZWNrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ultima_alteracao/8_LeiauteAlternativo/LanchesMac/LanchesMac/Views/Pedido/CheckoutCompleto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXENoZWNrb3V0Q29tcGxldG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ultima_alteracao/8_LeiauteAlternativo/LanchesMac/LanchesMac/Views/Shared/Components/CarrinhoCompraResumo/Default.cshtml]

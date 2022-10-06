@@ -13,8 +13,6 @@ D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\Microsoft.Build.dll
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\Microsoft.Build.Framework.dll
-D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\Microsoft.Build.Tasks.Core.dll
-D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\Microsoft.Build.Utilities.Core.dll
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -62,7 +60,6 @@ D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\NuGet.ProjectModel.dll
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\NuGet.Protocol.dll
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\NuGet.Versioning.dll
-D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\System.CodeDom.dll
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\System.Composition.Convention.dll
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\System.Composition.Hosting.dll
@@ -71,7 +68,6 @@ D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\System.Drawing.Common.dll
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\System.Resources.Extensions.dll
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\System.Runtime.Caching.dll
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\System.Security.Permissions.dll
@@ -238,14 +234,7 @@ D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
-D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
-D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\obj\Debug\net6.0\LanchesMac.csproj.AssemblyReference.cache
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\obj\Debug\net6.0\LanchesMac.GeneratedMSBuildEditorConfig.editorconfig
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\obj\Debug\net6.0\LanchesMac.AssemblyInfoInputs.cache
@@ -265,3 +254,15 @@ D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\obj\Debug\net6.0\
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\obj\Debug\net6.0\LanchesMac.pdb
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\obj\Debug\net6.0\LanchesMac.genruntimeconfig.cache
 D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\obj\Debug\net6.0\ref\LanchesMac.dll
+D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\ultima_alteracao\8_LeiauteAlternativo\LanchesMac\LanchesMac\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Hnul6wxxBK5TLb6iKvJ5onpsEfqZjnlQGE/XLddZsIA=",
+  "Hash": "tQhuK7/XbB/UE/oarrM3SeHHVphgxU+smCkdsLRbnmc=",
   "Source": "LanchesMac",
   "BasePath": "_content/LanchesMac",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\ultima_alteracao\\8_LeiauteAlternativo\\LanchesMac\\LanchesMac\\wwwroot\\images\\adminarea.jpg",
+      "SourceId": "LanchesMac",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ultima_alteracao\\8_LeiauteAlternativo\\LanchesMac\\LanchesMac\\wwwroot\\",
+      "BasePath": "_content/LanchesMac",
+      "RelativePath": "images/adminarea.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\adminarea.jpg"
     },
     {
       "Identity": "D:\\ultima_alteracao\\8_LeiauteAlternativo\\LanchesMac\\LanchesMac\\wwwroot\\images\\carousel11.jpg",
@@ -544,6 +561,40 @@
       "OriginalItemSpec": "wwwroot\\images\\leiaute\\icons8-speaker-phone-50.png"
     },
     {
+      "Identity": "D:\\ultima_alteracao\\8_LeiauteAlternativo\\LanchesMac\\LanchesMac\\wwwroot\\images\\login_48.png",
+      "SourceId": "LanchesMac",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ultima_alteracao\\8_LeiauteAlternativo\\LanchesMac\\LanchesMac\\wwwroot\\",
+      "BasePath": "_content/LanchesMac",
+      "RelativePath": "images/login_48.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\login_48.png"
+    },
+    {
+      "Identity": "D:\\ultima_alteracao\\8_LeiauteAlternativo\\LanchesMac\\LanchesMac\\wwwroot\\images\\login1.jpg",
+      "SourceId": "LanchesMac",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ultima_alteracao\\8_LeiauteAlternativo\\LanchesMac\\LanchesMac\\wwwroot\\",
+      "BasePath": "_content/LanchesMac",
+      "RelativePath": "images/login1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\login1.jpg"
+    },
+    {
       "Identity": "D:\\ultima_alteracao\\8_LeiauteAlternativo\\LanchesMac\\LanchesMac\\wwwroot\\images\\phone-app-icon.png",
       "SourceId": "LanchesMac",
       "SourceType": "Discovered",
@@ -559,6 +610,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\phone-app-icon.png"
+    },
+    {
+      "Identity": "D:\\ultima_alteracao\\8_LeiauteAlternativo\\LanchesMac\\LanchesMac\\wwwroot\\images\\registro1.jpg",
+      "SourceId": "LanchesMac",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ultima_alteracao\\8_LeiauteAlternativo\\LanchesMac\\LanchesMac\\wwwroot\\",
+      "BasePath": "_content/LanchesMac",
+      "RelativePath": "images/registro1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\registro1.jpg"
     },
     {
       "Identity": "D:\\ultima_alteracao\\8_LeiauteAlternativo\\LanchesMac\\LanchesMac\\wwwroot\\images\\remove.ico",

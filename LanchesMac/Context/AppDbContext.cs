@@ -1,9 +1,11 @@
 ﻿using LanchesMac.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 //Classe de contexto Vai carregar as informações e definir quais classes vão para quais tabelas
 namespace LanchesMac.Context
 {   //classe de contexto vai herdar de DbContext(classe do EFCore)
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<IdentityUser>
     {//quais são as classes do modelo de domínio que quer mapear
         //construtor        classe          referenciar                 vai passar para o construtor a classe base que é DbContext
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)

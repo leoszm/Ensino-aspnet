@@ -69,7 +69,7 @@ namespace LanchesMac.Controllers
             //exibir a view com                                   dados do cliente e do pedido
             return View("~/Views/Pedido/CheckoutCompleto.cshtml", pedido);
             }
-        return View(pedido);         
+        return View(pedido);
         }
     }
 }

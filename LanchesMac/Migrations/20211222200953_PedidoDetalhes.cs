@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
@@ -9,7 +8,7 @@ namespace LanchesMac.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.CreateTable(
+            /*migrationBuilder.CreateTable(
                 name: "Pedidos",
                 columns: table => new
                 {
@@ -79,7 +78,7 @@ namespace LanchesMac.Migrations
                 name: "PedidoDetalhes");
 
             migrationBuilder.DropTable(
-                name: "Pedidos");
+                name: "Pedidos");*/
         }
     }
 }
