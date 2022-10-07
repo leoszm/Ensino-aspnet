@@ -8,6 +8,7 @@ namespace LanchesMac.Controllers
     {
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
+        
 
         public AccountController(UserManager<IdentityUser> userManager, 
             SignInManager<IdentityUser> signInManager)
@@ -15,6 +16,7 @@ namespace LanchesMac.Controllers
             _userManager = userManager;
             _signInManager = signInManager;
         }
+
 
         [HttpGet]
         public IActionResult Login(string returnUrl)
@@ -61,7 +63,7 @@ namespace LanchesMac.Controllers
         }
 
         [HttpPost]//processar o envio do formulario
-        [ValidateAntiForgeryToken]
+        [ValidateAntiForgeryToken]//antiforgerytoken(evitar ataques CSRF)
         public async Task<IActionResult> Register(LoginViewModel registroVM)
         //             retornar iaction result    receber dados do loginviewmodel que será chamado de registro
         {
@@ -70,17 +72,25 @@ namespace LanchesMac.Controllers
                 var user = new IdentityUser { UserName = registroVM.UserName };
                 var result = await _userManager.CreateAsync(user, registroVM.Password);
 
-                if (result.Succeeded)
-                {
-                    //await _signInManager.SignInAsync(user, isPersistent: false);
-                    return RedirectToAction("Login", "Account");
-                }
-                else
-                {
-                    this.ModelState.AddModelError("Registro", "Falha na criação de registro");
-                }
+                    if (result.Succeeded)
+                    {
+                        //await _signInManager.SignInAsync(user, isPersistent: false);
+                        return RedirectToAction("Login", "Account");
+                    }
+                    else
+                    {
+                        this.ModelState.AddModelError("Registro", "Falha na criação de registro");
+                    }
             }
             return View(registroVM);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Logout() {
+            HttpContext.Session.Clear();
+            HttpContext.User = null;
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index","Home");
         }
     }
 }

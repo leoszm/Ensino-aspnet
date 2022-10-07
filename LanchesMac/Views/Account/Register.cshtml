@@ -1,0 +1,46 @@
+﻿@model LoginViewModel
+
+<table>
+    <tr>
+        <td><img src="~/images/registro1.jpg" alt="Registrar Usuário" width="80" height="60" /></td>
+        <td>
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <h4>Registrar usuário</h4>
+                    <form asp-controller="Account" asp-action="Register" method="post">
+                        <hr />
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="UserName"></label>
+                            <input asp-for="UserName" class="form-control" />
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Password"></label>
+                            <input asp-for="Password" class="form-control" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <br />
+                        <div>
+                            <p>
+                            <input type="checkbox" id="ciente" />
+                            <a>Estou ciente, li e aceito os termos e compromissos da página</a>
+                            <span class="text-danger"></span>
+                            </p>
+
+                            <p>
+                                <input type="checkbox" />
+                                <a>Desejo receber notificações de ofertas e marketing via e-mail</a>
+                            </p>
+                            
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-success" value="Registrar" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
