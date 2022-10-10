@@ -87,9 +87,13 @@ namespace LanchesMac.Controllers
 
         [HttpPost]
         public async Task<IActionResult> Logout() {
+            //reforçar o codigo de sign out abaixo
             HttpContext.Session.Clear();
+            //zerando valores atribuídos a usuário
             HttpContext.User = null;
+
             await _signInManager.SignOutAsync();
+            //direcionar ao method index do controlador home
             return RedirectToAction("Index","Home");
         }
     }

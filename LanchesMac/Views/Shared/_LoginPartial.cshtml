@@ -1,16 +1,27 @@
 ﻿@using Microsoft.AspNetCore.Identity
 
+@*pegar um recurso(usuario e passar para @User.Identity.Name)
+injetar      tipo                         nome
+*@
 @inject SignInManager<IdentityUser> SignInManager
-
+    @* se estiver logado*@
     @if(SignInManager.IsSignedIn(User)){
         <form asp-area="" asp-controller="Account" asp-action="Logout" id="logoutForm" 
                 method="post" class="navbar-left">
             <ul class="nav navbar-nav navbar-left">
+                @*Clicar nesse button chama o asp controller e action acima e faz logout*@
                 <button type="submit" style="width:auto" class="nav-link btn btn-link py-0">
+                             @*nome do usuário logado*@
                     Logout : @User.Identity.Name &nbsp;
                 </button>
             </ul>
         </form>
     }else{
-        <ul class="nav navbar-nav"></ul>
+        @*caso não esteja logado*@
+        <ul class="nav navbar-nav navbar-left">
+            @*link para acionar method login do controlador account, usando como adicional o returnUrl do login*@
+            <a class="nav-link text-light" asp-controller="Account" asp-action="Login" asp-route-returnUrl="@string.Format("{0}{1}",Context.Request.Path,Context.Request.QueryString)" style="color:white">&nbsp; Entrar&nbsp;</a>
+            @*link para acionar method register do controlador account*@
+            <a class="nav-link text-light" asp-controller="Account" asp-action="Register" style="color:white">&nbsp;Registro&nbsp;&nbsp;&nbsp;</a>
+        </ul>
     }
