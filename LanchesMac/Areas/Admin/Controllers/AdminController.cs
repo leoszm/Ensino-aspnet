@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace LanchesMac.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
+    [Authorize("Admin")]
     public class AdminController : Controller
     {
         public IActionResult Index()
