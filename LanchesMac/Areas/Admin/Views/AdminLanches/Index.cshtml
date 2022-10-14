@@ -1,14 +1,28 @@
-﻿@model IEnumerable<LanchesMac.Models.Lanche>
+﻿@model ReflectionIT.Mvc.Paging.PagingList<LanchesMac.Models.Lanche>
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Lanches</h1>
+<h3>Lanches</h3>
+
+<form method="get" class="form-inline">
+    <input name="filter" class="form-control" placeholder="filtro"
+        value="@Model.RouteValue["Filter"]" />
+
+    <button type="submit" class="btn btn-info">Procurar</button>
+</form>
+
+Total de Produtos: @Model.TotalRecordCount
+<div>
+    <vc:pager paging-list="@Model"></vc:pager>
+</div>
 
 <p>
     <a asp-action="Create">Cadastrar novo lanche</a>
 </p>
+<div class="row">
+    <div class="col-md-10">
 <table class="table">
     <thead>
         <tr>
@@ -18,18 +32,11 @@
             <th>
                 @Html.DisplayNameFor(model => model.DescricaoCurta)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DescricaoDetalhada)
-            </th>
+            
             <th>
                 @Html.DisplayNameFor(model => model.Preco)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ImagemUrl)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ImagemThumbnailUrl)
-            </th>
+           
             <th>
                 @Html.DisplayNameFor(model => model.IsLanchePreferido)
             </th>
@@ -81,3 +88,5 @@
 }
     </tbody>
 </table>
+    </div>
+</div>

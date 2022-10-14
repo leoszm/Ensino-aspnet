@@ -49,6 +49,8 @@ namespace LanchesMac.Models
 
         //navegação
         //chave estrangeira
+        //
+        [Display(Name = "Categorias")]
         public int CategoriaId { get; set; }
 
         //propriedade de navegação, para relacionar categoria com lanche
