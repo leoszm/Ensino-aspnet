@@ -7,10 +7,14 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using LanchesMac.Context;
 using LanchesMac.Models;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
+using ReflectionIT.Mvc.Paging;
 
 namespace LanchesMac.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class AdminPedidosController : Controller
     {
         private readonly AppDbContext _context;
@@ -20,10 +24,32 @@ namespace LanchesMac.Areas.Admin.Controllers
             _context = context;
         }
 
+        //não será necessário método action index pois view será paginada, não sendo necessária view index gerada
         // GET: Admin/AdminPedidos
-        public async Task<IActionResult> Index()
+        /*public async Task<IActionResult> Index()
         {
               return View(await _context.Pedidos.ToListAsync());
+        }*/
+
+        //definindo método asyncrono, chamando método index, definindo filtro, o pageindex valor inicial 1 e o critério de ordenação pelo nome
+        public async Task<IActionResult> Index(string filter, int pageindex = 1, string sort = "Nome")
+        {
+            //consulta para obtenção de dados, ainda não obtem os dados         
+            var resultado = _context.Pedidos.AsNoTracking()//AsNoTracking possibilita desempenho melhor já que as entidades não são rastreadas pelo context, assim o EFCore não realiza nenhum processamento adicional nas entidades
+                                            .AsQueryable();//converter essa coleção para o tipo IQueryable
+            // se o valor de filter for informado
+            if (!string.IsNullOrWhiteSpace(filter))
+            {
+                //                     onde         filtrando nome com critério filter
+                resultado = resultado.Where(p => p.Nome.Contains(filter));
+            }
+
+            //criando os dados paginados            consulta utilizada      tamanho
+            var model = await PagingList.CreateAsync(   resultado,          5,          pageindex, sort, "Nome");
+            model.RouteValue = new RouteValueDictionary { { "filter", filter } };
+
+            return View(model);
+
         }
 
         // GET: Admin/AdminPedidos/Details/5

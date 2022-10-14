@@ -7,10 +7,14 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using LanchesMac.Context;
 using LanchesMac.Models;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
+using ReflectionIT.Mvc.Paging;
 
 namespace LanchesMac.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles ="Admin")]
     public class AdminLanchesController : Controller
     {
         private readonly AppDbContext _context;
@@ -20,12 +24,14 @@ namespace LanchesMac.Areas.Admin.Controllers
             _context = context;
         }
 
+        
+
         // GET: Admin/AdminLanches
-        public async Task<IActionResult> Index()
+        /*public async Task<IActionResult> Index()
         {
             var appDbContext = _context.Lanches.Include(l => l.Categoria);
             return View(await appDbContext.ToListAsync());
-        }
+        }*/
 
         // GET: Admin/AdminLanches/Details/5
         public async Task<IActionResult> Details(int? id)
