@@ -36,10 +36,14 @@ public class Startup
             options.Password.RequiredLength = 8;
             options.Password.RequiredUniqueChars = 1;
             });*/
+        services.Configure<ConfigurationImagens>(Configuration.GetSection("ConfiguraionPastaImagens"));
+
+        services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
         services.AddTransient<ILancheRepository, LancheRepository>();
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
         services.AddTransient<IPedidoRepository, PedidoRepository>();
+
         services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
         services.AddScoped<RelatorioVendasService>();
 
@@ -52,8 +56,6 @@ public class Startup
                     politica.RequireRole("Admin");
                 });
         });
-
-        services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         //creia uma instancia do carrinho a cada request, dois clientes entram ao mesmo tempo
         //no mesmo produto, msm assim são requests diferentes
         services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));

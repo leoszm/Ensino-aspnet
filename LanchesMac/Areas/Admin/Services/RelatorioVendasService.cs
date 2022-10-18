@@ -10,7 +10,7 @@ namespace LanchesMac.Areas.Admin.Services
 
         public RelatorioVendasService(AppDbContext _context)
         {
-            _context = context;
+            context = _context;
         }
 
         public async Task<List<Pedido>> FindByDateAsync(DateTime? minDate, DateTime? maxDate)

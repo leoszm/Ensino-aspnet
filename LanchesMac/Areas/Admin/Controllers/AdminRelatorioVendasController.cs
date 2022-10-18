@@ -10,7 +10,7 @@ namespace LanchesMac.Areas.Admin.Controllers
 
         public AdminRelatorioVendasController(RelatorioVendasService _relatorioVendasService)
         {
-            _relatorioVendasService = relatorioVendasService;
+            relatorioVendasService = _relatorioVendasService;
         }
 
         public IActionResult Index()
@@ -32,7 +32,7 @@ namespace LanchesMac.Areas.Admin.Controllers
             }
 
             ViewData["minDate"] = minDate.Value.ToString("yyyy-MM-dd");
-            ViewData["minDate"] = maxDate.Value.ToString("yyyy-MM-dd");
+            ViewData["maxDate"] = maxDate.Value.ToString("yyyy-MM-dd");
 
             var result = await relatorioVendasService.FindByDateAsync(minDate, maxDate);
             return View(result);
