@@ -17,6 +17,8 @@
 <table class="table">
     @foreach (var item in @Model.Pedido.PedidoItens){
         totalPedido += (@item.Lanche.Preco * @item.Quantidade);
+        //totalPedido = @item.Pedido.PedidoTotal;
+
         <tr>
             <td align="right">
                 <h3>@Html.DisplayFor(modelItem => item.Lanche.Nome)</h3>
