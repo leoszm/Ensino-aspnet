@@ -36,7 +36,7 @@ public class Startup
             options.Password.RequiredLength = 8;
             options.Password.RequiredUniqueChars = 1;
             });*/
-        services.Configure<ConfigurationImagens>(Configuration.GetSection("ConfiguraionPastaImagens"));
+        services.Configure<ConfigurationImagens>(Configuration.GetSection("ConfigurationPastaImagens"));
 
         services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 

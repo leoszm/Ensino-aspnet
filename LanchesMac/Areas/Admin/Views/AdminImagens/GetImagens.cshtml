@@ -1,0 +1,22 @@
+﻿@model FileManagerModel
+@{
+    ViewBag.Title = "Arquivos";
+}
+<!--se arquivos for diferente de null-->
+@if(Model.Files != null){
+    <h3>Imagens:</h3>
+    <hr />
+    <!--definindo o caminho de imagens-->
+    var caminho = Model.PathImagesProduto;
+    <div class="row"><!--montou uma linha, dentro dela haverá colunas -->
+        @foreach(FileInfo file in Model.Files)
+        {
+            <div class="column">
+                <img title="@file.Name" src="~/@caminho/@file.Name" width="125" height="125">
+                <div style="padding:10px;text-align:left">
+                    <a href="@Url.Action("Deletefile","AdminImagens",new {fname=file.Name})">Deletar</a>
+                </div>
+            </div>
+        }
+    </div>
+}

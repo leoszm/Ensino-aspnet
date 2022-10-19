@@ -35,8 +35,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yaWFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ultima_alteracao/8_LeiauteAlternativo/LanchesMac/LanchesMac/Areas/Admin/Views/AdminImagens/GetImagens.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5JbWFnZW5zXEdldEltYWdlbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ultima_alteracao/8_LeiauteAlternativo/LanchesMac/LanchesMac/Areas/Admin/Views/AdminImagens/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5JbWFnZW5zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ultima_alteracao/8_LeiauteAlternativo/LanchesMac/LanchesMac/Areas/Admin/Views/AdminImagens/UploadFiles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5JbWFnZW5zXFVwbG9hZEZpbGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ultima_alteracao/8_LeiauteAlternativo/LanchesMac/LanchesMac/Areas/Admin/Views/AdminLanches/Create.cshtml]
