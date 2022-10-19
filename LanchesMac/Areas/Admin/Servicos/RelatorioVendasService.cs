@@ -2,7 +2,7 @@
 using LanchesMac.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace LanchesMac.Areas.Admin.Services
+namespace LanchesMac.Areas.Admin.Servicos
 {
     public class RelatorioVendasService
     {

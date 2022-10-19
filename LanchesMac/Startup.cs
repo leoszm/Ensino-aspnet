@@ -1,4 +1,4 @@
-﻿using LanchesMac.Areas.Admin.Services;
+﻿using LanchesMac.Areas.Admin.Servicos;
 using LanchesMac.Context;
 using LanchesMac.Models;
 using LanchesMac.Repositories;
@@ -46,6 +46,7 @@ public class Startup
 
         services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
         services.AddScoped<RelatorioVendasService>();
+        services.AddScoped<GraficoVendasService>();
 
         //criando a politica informando a necessidade do perfil admin e chamou ela de admin
         services.AddAuthorization(options =>
